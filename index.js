@@ -5,6 +5,8 @@ const fs = require('fs');
 //const path = require('path');
 const inquirer = require('inquirer');
 const circle = require ('./lib/Circle.js');
+const square = require ('./lib/Square.js');
+const triangle = require ('./lib/Triangle.js');
 
 //--------------------//
 //- Global Variables -//
@@ -78,8 +80,8 @@ console.log(answers.userTextColour)
 if (answers.userShape === 'circle') {
     SVG = circle.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
 }
-if (answers.userShape === 'rectangle') {
-    SVG = rectangle.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
+if (answers.userShape === 'square') {
+    SVG = square.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
 }
 if (answers.userShape === 'triangle') {
     SVG = triangle.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
