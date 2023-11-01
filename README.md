@@ -85,7 +85,7 @@ THEN I am shown a 300 (w) x 200 (h) pixel image that matches the criteria I ente
 
 Watch this video to learn more about the application
 
-<a href="https://drive.google.com/file/d/1CQPkWc-zCFDpUQK3k08EP4xWxqfxaRvM/view"> Video - "How to: Huber's SVG Logo Maker" </a>
+<a href="https://drive.google.com/file/d/155y-tOTuHj-jtjRuVwV4b-bMhEHIu7mX/view"> Video - "How to: Huber's SVG Logo Maker" </a>
 
 Example Logo: Circle
 
@@ -165,7 +165,7 @@ npm run test
 
 * Validate that when you run ``` node index.js ``` in CLI that you are presented with a series of questions to answer
 * Validate that when responding to shape colour and text colour in keyword format, that the application checks to ensure the reponse matches supported colours <a href="https://www.w3.org/TR/SVG11/types.html#ColorKeywords">Link here </a>
-* Validate that when responding to shape colour and text colour in hexadecimal format, that the application checks to ensure the response is in format #CCCCCC (where C can be any character from A-F and digit from 0-9. Note that there must be 6 characters following the '#')
+* Validate that when responding to shape colour and text colour in hexadecimal format, that the application checks to ensure the response is in format #ABC123 (the six characters following the # can be any from A-F and digit from 0-9. There must also be six characters following the '#')
 * Validate that the responding to the text to appear on the logo, that there is a 3 character limit.
 * Validate that when the questions have all been answered, that a `logo.svg` file is generated in the `output` subfolder
 
