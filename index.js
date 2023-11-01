@@ -16,7 +16,6 @@ inquirer
     .prompt(questions)
 
     .then ((answers) => {
-        console.log(answers)   
         renderFile(answers);
     })
     .catch ((err) => {
@@ -39,8 +38,7 @@ if (answers.userShape === 'triangle') {
     SVG = triangle.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
 }
 // Write the SVG using the content provided by the called filed above
-console.log(SVG)
-fs.writeFile ('./output/logo.svg/', SVG, (err) => err ? console.log (err) : console.log ('SVG File created (open with live server) http://127.0.0.1:5501/Challenges/SVG-logo-maker/output/logo.svg' ));
+fs.writeFile ('./output/logo.svg/', SVG, (err) => err ? console.log (err) : console.log ('\nLogo.SVG File created and stored in output folder.'));
 };
 
 

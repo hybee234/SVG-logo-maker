@@ -1,0 +1,5 @@
+
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto;">
+    <polygon points="150,0 0,200 300,200" fill="#8b1ec4"/>
+    <text x="150" y="165" font-size="60" text-anchor="middle" fill="#ffc663"> WOW </text>
+</svg>
