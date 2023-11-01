@@ -39,7 +39,8 @@ if (answers.userShape === 'triangle') {
     SVG = triangle.renderSVG(answers.userShapeColour, answers.userText, answers.userTextColour)
 }
 // Write the SVG using the content provided by the called filed above
-fs.writeFile ('./output/logo.svg/', SVG, (err) => err ? console.log (err) : console.log ('SVG File created http://127.0.0.1:5501/Challenges/SVG-logo-maker/output/logo.svg' ));
+console.log(SVG)
+fs.writeFile ('./output/logo.svg/', SVG, (err) => err ? console.log (err) : console.log ('SVG File created (open with live server) http://127.0.0.1:5501/Challenges/SVG-logo-maker/output/logo.svg' ));
 };
 
 

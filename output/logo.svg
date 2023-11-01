@@ -1,5 +1,5 @@
 
-<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg">    
-    <circle cx="150" cy="150" r="140" fill="pink" />
-    <text x="150" y="170" font-size="70" text-anchor="middle" fill="green"> bob </text>
+<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto">
+    <polygon points="150,10 10,290 290,290" fill="orange"/>
+    <text x="150" y="270" font-size="70" text-anchor="middle" fill="blue"> WyW </text>
 </svg>
