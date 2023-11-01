@@ -1,5 +1,5 @@
 
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto;">
-    <rect x="50" y="0" width="200" height="200" fill="orange"/>
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="navy"> DAD </text>
+    <circle cx="150" cy="100" r="100" fill="#FF0000"/>
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="#FFFFFF"> DVD </text>
 </svg>
